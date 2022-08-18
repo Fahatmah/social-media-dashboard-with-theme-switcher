@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="assets/favicon-32x32.png"
+		/>
+
+		<title>
+			Frontend Mentor | Social Media Dashboard with Theme Switcher
+		</title>
+		<link rel="stylesheet" href="css/stylesheet.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+
+	</head>
+	<body>
+		<header>
+			<div class="title_board">
+				<h1 class="light-neutral-clr-900 fw-semi-bold fs-heading">
+					Social Media Dashboard
+				</h1>
+				<p class="light-neutral-clr-600 fw-semi-bold fs-130">
+					Total Followers: 23,004
+				</p>
+			</div>
+			<div class="toggle_theme">
+				<p class="light-neutral-clr-600 fw-semi-bold fs-130">Dark Mode</p>
+				<button
+					aria-label="turn on darkmode"
+					class="toggle_theme_slider light-toggle-bg-clr"
+					id="themeSlider"
+				>
+					<div class="toggle_circle light-bg-clr" id="toggleSlider"></div>
+				</button>
+			</div>
+		</header>
+
+		<main>
+			<section class="dashboard_container">
+				<div class="dashboard-item light-card-bg-clr">
+					<div class="user-account">
+						<img
+							src="assets/icon-facebook.svg"
+							class="icon-width"
+							alt=""
+						/>
+						<p class="light-neutral-clr-600 fw-semi-bold fs-100">
+							@nathanf
+						</p>
+					</div>
+					<div class="user-followers">
+						<h2 class="light-neutral-clr-900 fw-semi-bold fs-750">
+							1987
+						</h2>
+						<p class="light-neutral-clr-600 fs-100">Followers</p>
+					</div>
+					<p class="current-data primary-clr-200 fw-semi-bold fs-100">
+						12 Today
+					</p>
+				</div>
+
+				<div class="dashboard-item light-card-bg-clr">
+					<div class="user-account">
+						<img
+							src="assets/icon-twitter.svg"
+							class="icon-width"
+							alt=""
+						/>
+						<p class="light-neutral-clr-600 fw-semi-bold fs-100">
+							@nathanf
+						</p>
+					</div>
+					<div class="user-followers">
+						<h2 class="light-neutral-clr-900 fw-semi-bold fs-750">
+							1044
+						</h2>
+						<p class="light-neutral-clr-600 fs-100">Followers</p>
+					</div>
+					<p class="current-data primary-clr-200 fw-semi-bold fs-100">
+						99 Today
+					</p>
+				</div>
+
+				<div class="dashboard-item light-card-bg-clr">
+					<div class="user-account">
+						<img
+							src="assets/icon-instagram.svg"
+							class="icon-width"
+							alt=""
+						/>
+						<p class="light-neutral-clr-600 fw-semi-bold fs-100">
+							@realnathanf
+						</p>
+					</div>
+					<div class="user-followers">
+						<h2 class="light-neutral-clr-900 fw-semi-bold fs-750">11k</h2>
+						<p class="light-neutral-clr-600 fs-100">Followers</p>
+					</div>
+					<p class="current-data primary-clr-200 fw-semi-bold fs-100">
+						1099 Today
+					</p>
+				</div>
+
+				<div class="dashboard-item light-card-bg-clr">
+					<div class="user-account">
+						<img
+							src="assets/icon-youtube.svg"
+							class="icon-width"
+							alt=""
+						/>
+						<p class="light-neutral-clr-600 fw-semi-bold fs-100">
+							Nathan F.
+						</p>
+					</div>
+					<div class="user-followers">
+						<h2 class="light-neutral-clr-900 fw-semi-bold fs-750">
+							8239
+						</h2>
+						<p class="light-neutral-clr-600 fs-100">Subscribers</p>
+					</div>
+					<p class="current-data red primary-clr-500 fw-semi-bold fs-100">
+						144 Today
+					</p>
+				</div>
+			</section>
+			<section class="overview_container">
+				<h3 class="light-neutral-clr-600 fw-semi-bold fs-heading">
+					Overview - Today
+				</h3>
+				<div class="overview-items">
+					<div class="overview-item light-card-bg-clr">
+						<div class="user-interaction">
+							<p class="light-neutral-clr-600 fw-semi-bold fs-130">
+								Page Views
+							</p>
+							<img
+								src="assets/icon-facebook.svg"
+								class="icon-width"
+								alt=""
+							/>
+						</div>
+
+						<div class="interaction-data">
+							<h4 class="data light-neutral-clr-900 fw-bold fs-550">
+								87
+							</h4>
+							<p class="primary-clr-200 fw-semi-bold fs-100">3%</p>
+						</div>
+					</div>
+
+					<div class="overview-item light-card-bg-clr">
+						<div class="user-interaction">
+							<p class="light-neutral-clr-600 fw-semi-bold fs-130">
+								Likes
+							</p>
+							<img
+								src="assets/icon-facebook.svg"
+								class="icon-width"
+								alt=""
+							/>
+						</div>
+
+						<div class="interaction-data">
+							<h4 class="data light-neutral-clr-900 fw-bold fs-550">
+								52
+							</h4>
+							<p class="primary-clr-500 fw-semi-bold fs-100">2%</p>
+						</div>
+					</div>
+
+					<div class="overview-item light-card-bg-clr">
+						<div class="user-interaction">
+							<p class="light-neutral-clr-600 fw-semi-bold fs-130">
+								Likes
+							</p>
+							<img
+								src="assets/icon-instagram.svg"
+								class="icon-width"
+								alt=""
+							/>
+						</div>
+
+						<div class="interaction-data">
+							<h4 class="data light-neutral-clr-900 fw-bold fs-550">
+								5462
+							</h4>
+							<p class="primary-clr-200 fw-semi-bold fs-100">2257%</p>
+						</div>
+					</div>
+
+					<div class="overview-item light-card-bg-clr">
+						<div class="user-interaction">
+							<p class="light-neutral-clr-600 fw-semi-bold fs-130">
+								Profile Views
+							</p>
+							<img
+								src="assets/icon-instagram.svg"
+								class="icon-width"
+								alt=""
+							/>
+						</div>
+
+						<div class="interaction-data">
+							<h4 class="data light-neutral-clr-900 fw-bold fs-550">
+								52k
+							</h4>
+							<p class="primary-clr-200 fw-semi-bold fs-100">1375%</p>
+						</div>
+					</div>
+
+					<div class="overview-item light-card-bg-clr">
+						<div class="user-interaction">
+							<p class="light-neutral-clr-600 fw-semi-bold fs-130">
+								Retweets
+							</p>
+							<img
+								src="assets/icon-twitter.svg"
+								class="icon-width"
+								alt=""
+							/>
+						</div>
+
+						<div class="interaction-data">
+							<h4 class="data light-neutral-clr-900 fw-bold fs-550">
+								117
+							</h4>
+							<p class="primary-clr-200 fw-semi-bold fs-100">303%</p>
+						</div>
+					</div>
+
+					<div class="overview-item light-card-bg-clr">
+						<div class="user-interaction">
+							<p class="light-neutral-clr-600 fw-semi-bold fs-130">
+								Likes
+							</p>
+							<img
+								src="assets/icon-twitter.svg"
+								class="icon-width"
+								alt=""
+							/>
+						</div>
+
+						<div class="interaction-data">
+							<h4 class="data light-neutral-clr-900 fw-bold fs-550">
+								507
+							</h4>
+							<p class="primary-clr-200 fw-semi-bold fs-100">553%</p>
+						</div>
+					</div>
+
+					<div class="overview-item light-card-bg-clr">
+						<div class="user-interaction">
+							<p class="light-neutral-clr-600 fw-semi-bold fs-130">
+								Likes
+							</p>
+							<img
+								src="assets/icon-youtube.svg"
+								class="icon-width"
+								alt=""
+							/>
+						</div>
+
+						<div class="interaction-data">
+							<h4 class="data light-neutral-clr-900 fw-bold fs-550">
+								107
+							</h4>
+							<p class="primary-clr-500 fw-semi-bold fs-100">19%</p>
+						</div>
+					</div>
+
+					<div class="overview-item light-card-bg-clr">
+						<div class="user-interaction">
+							<p class="light-neutral-clr-600 fw-semi-bold fs-130">
+								Total Views
+							</p>
+							<img
+								src="assets/icon-youtube.svg"
+								class="icon-width"
+								alt=""
+							/>
+						</div>
+
+						<div class="interaction-data">
+							<h4 class="data light-neutral-clr-900 fw-bold fs-550">
+								1407
+							</h4>
+							<p class="primary-clr-500 fw-semi-bold fs-100">12%</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<div class="attribution light-neutral-clr-600 fw-semi-bold fs-100">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="https://www.frontendmentor.io/profile/Fahatmah" target="_blank">Fahatmah</a>.
+		</div>
+
+		<script src="js/script.js"></script>
+	</body>
+</html>
