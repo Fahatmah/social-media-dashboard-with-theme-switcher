@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
--  Solution URL: [Social Media Dashboard with Theme Switcher Link]()
--  Live Site URL: [Social Media Dashboard with Theme Switcher Link]()
+-  Solution URL: [Social Media Dashboard with Theme Switcher Link](https://github.com/Fahatmah/social-media-dashboard-with-theme-switcher.git)
+-  Live Site URL: [Social Media Dashboard with Theme Switcher Link](https://social-media-dashboard-fem.netlify.app/)
 
 ## My process
 
